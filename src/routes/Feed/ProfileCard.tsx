@@ -38,7 +38,7 @@ const StyledWrapper = styled.div`
     border-radius: 1rem;
     width: 100%;
     background-color: ${({ theme }) =>
-      theme.scheme === "light" ? "white" : theme.colors.gray4};
+    theme.scheme === "light" ? "white" : theme.colors.gray4};
     @media (min-width: 768px) {
       padding: 1rem;
     }
@@ -67,12 +67,14 @@ const StyledWrapper = styled.div`
       }
       .role {
         margin-bottom: 1rem;
+        text-align: center;
         font-size: 0.875rem;
         line-height: 1.25rem;
         color: ${({ theme }) => theme.colors.gray11};
       }
       .bio {
         margin-bottom: 0.5rem;
+        text-align: center;
         font-size: 0.875rem;
         line-height: 1.25rem;
       }
