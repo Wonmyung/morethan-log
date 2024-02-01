@@ -4,8 +4,8 @@ const CONFIG = {
     name: "onleewon",
     image: "/MyAvatar.png", // check out https://notion-avatar.vercel.app
     role: "Software Engineer for Autonomous Driving",
-    bio: "A passionate and innovative Software Engineer specializing in autonomous driving technologies.",
-    email: "wonmyunglee92@gmail.com",
+    bio: "생각하고, 공부하는 것들을 기록합니다.",
+    email: "",
     linkedin: "wonmyunglee",
     github: "Wonmyung",
     instagram: "",
