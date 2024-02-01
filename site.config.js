@@ -6,8 +6,8 @@ const CONFIG = {
     role: "Software Engineer for Autonomous Driving",
     bio: "A passionate and innovative Software Engineer specializing in autonomous driving technologies.",
     email: "wonmyunglee92@gmail.com",
-    linkedin: "https://www.linkedin.com/in/wonmyunglee",
-    github: "https://github.com/Wonmyung",
+    linkedin: "wonmyunglee",
+    github: "Wonmyung",
     instagram: "",
   },
   projects: [
