@@ -1,0 +1,14 @@
+name: Trigger Vercel Deploy
+
+on:
+  schedule:
+    - cron: '0 /15 * * * *' # 15분마다 실행
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Trigger Deployment # Github actions name
+      uses: wei/curl@master # 외부 액션
+      with:
+        args: -X https://api.vercel.com/v1/integrations/deploy/prj_ZpbyB3ue4WLO0bcVV3448ykBLqVf/nqLiPw4NTP
