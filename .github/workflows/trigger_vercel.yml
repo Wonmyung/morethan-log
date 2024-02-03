@@ -6,7 +6,7 @@ env:
   
 on:
   schedule:
-    - cron: '0 * * * *' # 매시 0분마다 실행
+    - cron: '0 0 * * *' # 매시 0분마다 실행
 
 jobs:
   Deploy-Production:
